@@ -1,0 +1,85 @@
+body {
+    background-color: darkgray;
+}
+
+#menu  {
+
+    width: 100%;
+    height: 20px;
+    background-color:white;
+}
+
+#cabeçalho {
+    width: 100%;
+    height: 60px;
+    background-color: green;
+}
+
+.LinkMenu {
+    color: red;
+    font-size: 1em;
+    margin-right: 20px;
+
+}
+
+.LinkMenu1 {
+    color: red;
+    font-size: 1em;
+    margin-right: 650px;
+
+}
+
+
+.CabeçalhoSup h4 {
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.CabeçalhoSup img {
+
+    margin-left: 10px;
+    text-align: left;
+    height: 49px;
+}
+
+
+
+.txt {
+text-align: center;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+.Canto {
+color: red;
+font-size: 1em;
+text-align: right;
+
+}
+
+
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    text-align: center;
+
+}
+.parte1 {
+width: 100%;
+height: 800px;
+    text-align: center;
+}
+
+.parte1 img {
+
+    height: 500px;
+}
+
+.parte1 h1 {
+color: rebeccapurple;
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+
+
+}
