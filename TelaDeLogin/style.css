@@ -1,74 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+}
+
 .myButton {
-	box-shadow: 0px 1px 0px 0px #1c1b18;
-	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
-	background-color:#eae0c2;
-	border-radius:15px;
-	border:2px solid #333029;
-	display:inline-block;
-	cursor:pointer;
-	color:#505739;
-	font-family:Arial;
-	font-size:14px;
-	font-weight:bold;
-	padding:12px 16px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ffffff;
+  box-shadow: 0px 1px 0px 0px #1c1b18;
+  background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+  background-color: #eae0c2;
+  border-radius: 15px;
+  border: 2px solid #333029;
+  display: inline-block;
+  cursor: pointer;
+  color: #505739;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+  text-align: center;
 }
+
 .myButton:hover {
-	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
-	background-color:#ccc2a6;
+  background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+  background-color: #ccc2a6;
 }
+
 .myButton:active {
-	position:relative;
-	top:1px;
+  position: relative;
+  top: 1px;
 }
 
 .caixalogin {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 400px;
-    padding: 40px;
-    transform: translate(-50%, -50%);
-    background: rgba(0,0,0, .6);
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0, .6);
-    border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, .6);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+  border-radius: 10px;
+
 }
 
 .caixalogin h2 {
 
-    margin: 0 0 30px;
-    padding: 0;
-    color: #ffffff;
-    text-align: center;
+  margin: 0 0 20px;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
 }
 
-   body {
+body {
 
-    background: rgb(234,238,174);
-    background: radial-gradient(circle, rgba(234,238,174,1) 0%, rgba(148,233,156,1) 100%);
+  background: rgb(234, 238, 174);
+  background: radial-gradient(circle, rgba(234, 238, 174, 1) 0%, rgba(148, 233, 156, 1) 100%);
 
-   }
+}
 
 
-   body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    background: 
-    linear-gradient(#1c1b18, #333029);
-   }
+.caixalogin .lemail input {
 
-   .caixalogin .lemail input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  background: transparent;
+}
 
-    width: 100%;
-padding: 10px 0;
-font-size: 16px;
-color: #ffffff;
-margin-bottom: 30px;
-border:none;
-border-bottom: 1px solid #ffffff;
-outline: none;
-background: transparent;
-   }
+.usuarioConvidado img {
+
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+  text-align: center;
+  margin-left: 48.3%;
+  margin-right: 51.7%;
+  margin-top: 4%;
+
+}
+
+
+.caixas {
+
+  text-align: center;
+}
+
+.caixaemail {
+
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+  animation: go-back 1s;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateX(100px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.caixasenha {
+
+  width: 300px;
+  height: 20px;
+  border-radius: 5px;
+  animation: go-back 1s;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateX(100px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+
+.quadrado img {
+
+  animation: go-back 1s;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateX(100px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}

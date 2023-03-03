@@ -1,0 +1,226 @@
+body {
+
+    background-color: rgba(255, 145, 0, 0.637);
+
+}
+
+
+
+
+
+
+
+
+
+
+.myButton {
+
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+
+    background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+
+    background-color: #eae0c2;
+
+    border-radius: 15px;
+
+    border: 2px solid #333029;
+
+    display: inline-block;
+
+    cursor: pointer;
+
+    color: #505739;
+
+    font-family: Arial;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    padding: 10px 16px;
+
+    text-decoration: none;
+
+    text-shadow: 0px 1px 0px #ffffff;
+
+}
+
+
+
+
+.myButton:hover {
+
+    background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+
+    background-color: #ccc2a6;
+
+}
+
+.myButton:active {
+
+    position: relative;
+
+    top: 1px;
+
+}
+
+
+
+
+.caixacot {
+
+
+
+
+    position: absolute;
+
+    text-align: center;
+
+
+
+
+    top: 70%;
+
+    left: 70%;
+
+    right: 70%;
+
+    width: 400px;
+
+    height: 400px;
+
+    padding: 40px;
+
+    transform: translate(-115%, -85%);
+
+    background: rgb(234, 238, 174);
+
+    box-sizing: border-box;
+
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+
+    border-radius: 12px;
+
+}
+
+
+
+
+.caixacot h2 {
+
+    margin-top: 1%;
+    margin: 5px 0 1em;
+
+    padding: 0;
+    color: darkblue;
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+.caixacot .lemail input {
+
+
+
+
+    width: 100%;
+
+    padding: 10px 0;
+
+    font-size: 16px;
+
+    color: #ffffff;
+
+    margin-bottom: 30px;
+
+    border: none;
+
+    border-bottom: 1px solid #ffffff;
+
+    outline: none;
+
+    background: transparent;
+
+}
+
+
+
+
+.sombreamento {
+
+    position: relative;
+
+    width: 200px;
+
+    height: 200px;
+
+    color: aliceblue;
+
+
+
+
+
+}
+
+.msgm {
+
+    height: 100px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.nome {
+
+    border-radius: 5px;
+    width: 200px;
+}
+
+.email {
+
+    border-radius: 5px;
+    width: 200px;
+}
+
+.quadrado {
+
+
+
+
+
+   z-index: 1;
+
+    text-align: center;
+
+
+
+
+    top: 70%;
+
+    left: 70%;
+
+    right: 70%;
+
+    width: 400px;
+
+    height: 400px;
+
+    padding: 40px;
+
+    transform: translate(-200%, -90%);
+color: aqua;
+
+    box-sizing: border-box;
+
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+
+    border-radius: 12px;
+
+
+}
+

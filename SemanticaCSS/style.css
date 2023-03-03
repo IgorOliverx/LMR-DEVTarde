@@ -7,13 +7,29 @@ body {
     width: 100%;
     height: 20px;
     background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
 }
 
 #cabeçalho {
     width: 100%;
     height: 60px;
     background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    
+
 }
+
+
 
 .LinkMenu {
     color: red;
@@ -34,13 +50,6 @@ body {
 text-align: center;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
-
-.CabeçalhoSup img {
-
-    margin-left: 10px;
-    text-align: left;
-    height: 49px;
 }
 
 
@@ -73,7 +82,12 @@ height: 800px;
 
 .parte1 img {
 
-    height: 500px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    text-align: right;
 }
 
 .parte1 h1 {
@@ -81,5 +95,62 @@ color: rebeccapurple;
 font-family: 'Times New Roman', Times, serif;
 text-align: center;
 
+
+}
+
+.caixa-search {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    background-color: #333;
+    height: 30px;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+}
+
+.caixa-search:hover > .caixa-texto {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.caixa-search:hover > .botao-search {
+    background-color: #ffffff;
+    margin-left: 3px;
+}
+
+.botao-search {
+    color: #18e895;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.caixa-texto {
+    border: none;
+    background-color: #333;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    align-items: left;
 
 }
